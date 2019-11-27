@@ -45,15 +45,15 @@ SDA becasue of the it's falling edge.
 ### What frame did you capture? ###
 The frame my group captured was an address frame
 
-[Setup](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-ZenBoba/blob/master/20191121_144927%5B1%5D.jpg)
+[Setup](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-therunawayfiveguy/blob/master/setup.jpg)
 
-[Reading](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-ZenBoba/blob/master/20191121_144930%5B2%5D.jpg)
+[Reading](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-therunawayfiveguy/blob/master/reading.jpg)
 ### What does the I2C write function do when there is nothing connected? ###
 It will try to run the complete the function but because nothing is connected (an address is not found), nothing happens
 ### Is there a difference in what you capture if you write a number to one of the internal device addresses? ###
 Yes. When using a random numerical address the reading on the oscilloscope doesn't show a spike in the yellow reading. However, when using a specified address such as the accelometer on the micro:bit, the reading for yellow spikes up to show the address has received the data.
 ## Short I2C program ##
-JS file: [i2c-address.js](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-ZenBoba/blob/master/i2c-address.js)
+JS file: [i2c-address.js](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-therunawayfiveguy/blob/master/i2c-addresses.js)
 ### Can you get different values by moving the micro:bit around? ###
 Yes. When my group shook the micro:bit the value displayed on the matrix changed.
 
